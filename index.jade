@@ -9,14 +9,17 @@ html
     meta(name='author', content='')
     link(href='http://fonts.googleapis.com/css?family=GFS+Didot', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    link(href="http://fonts.googleapis.com/css?family=Raleway:400,300,700" rel="stylesheet" type="text/css")
     link(rel='stylesheet', href='css/bootstrap.min.css')
     link(rel='stylesheet', href='css/style.css')
     link(rel='stylesheet', href='css/app.css')
+    link(rel='stylesheet', href='css/fontello/css/fontello.css')
   body
-    #main-container
+    main
       section.home
         .row
-          .col-md-12.logo My Friend is a Founder
+          .col-md-12
+            a.logo(href='/') My Friend is a Founder
         .row
           .col-md-offset-2.col-md-8.explainer.text-center
             p A series of interviews with <b>founders you can relate to</b>.
@@ -27,11 +30,15 @@ html
         .container
           .row
             .col-md-12.text-center
-              h1 Quiting coder job to become a founder
+              h1
+                | Quiting coding to become a founder
+                span  | Dima
+              h5 4 minutes
               .row
                 .col-md-offset-2.col-md-8
                   .big-content.content-pad
-                    | <b>Dima</b> is a <b>co-founder of Playgong</b> - an app for creating leaderboards for offices, sport clubs - anywhere where people play 1 on 1 competitive games.
+                    | <a href='https://twitter.com/snovity'><b>Dima</b></a> is a
+                    |  <b>co-founder of <a href='http://playgong.com'>Playgong</a></b> - an app for creating leaderboards for offices, sport clubs - anywhere where people play 1 on 1 competitive games.
                   .hr
               .intro.row
                 .col-md-offset-1.col-md-4
@@ -53,7 +60,7 @@ html
           .row.question-answer
             .col-md-7
               :markdown
-                #### - What was your motivation for leaving the well-paid coder job?
+                #### - Why did you <b>quit a well-paid coder job</b>?
 
                 I was always into making new stuff that can be immediately used. That’s why I became
                 a software developer in the first place. For me, starting a product
@@ -78,7 +85,7 @@ html
           .row.question-answer
             .col-md-7
               :markdown
-                #### - Transitioning from a coder to a founder - what did you learn?
+                #### - You're transitioning from a coder to a founder. What did you learn?
 
                 The most surprising thing I’ve learnt is that you have to do things
                 you don’t like doing. Things that should work only “good enough”.
@@ -203,10 +210,10 @@ html
 
                 I solve this by buying the stuff I know over and over again - but it's sub-optimal.
 
-      section.light-part
+      section.light-part.no-skew
         .container.content.text-center
           .col-sm-12
-            i.icon-paper-plane
+            i.icon-heart
             h4 Learn more from friendly founders
             .hr
           .col-sm-offset-4.col-sm-4
@@ -214,10 +221,15 @@ html
               input.form-control.input-lg.requiretop(name='email', type='email', placeholder='Your Best Email')
           .col-sm-offset-3.col-sm-6
             .form-group
-              button.btn.btn-dark(type='submit') Learn from friendly founders
+              button.btn(type='submit') Learn from friendly founders
             #copy-text
               p An interview every few weeks
+          .col-sm-offset-3.col-sm-6
+            .follow
+              hr
+              a(href='https://twitter.com/myfriendisafounder' target='_blank')
+                span OR FOLLOW THEM
+                i.icon-twitter
     script(src='js/jquery.min.js')
     script(src='js/bootstrap.min.js')
-    script(src='js/smooth-scroll.js')
-    script(src='js/wow.min.js')
+    script(src="//load.sumome.com/" data-sumo-site-id="36086a8e9a7bb32811b73783d122d9cb2d7ba393666342261d0ddddc25c1e48c" async="async")
