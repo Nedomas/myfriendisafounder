@@ -17,14 +17,21 @@ html
   body
     main
       section.home
-        .row
-          .col-md-12
-            a.logo(href='/') My Friend is a Founder
-        .row
-          .col-md-offset-2.col-md-8.explainer.text-center
-            p A series of interviews with <b>founders you can relate to</b>.
-            p
-              | With the <b>focus</b> to decode <b>last steps to a successful business</b>.
+        .container
+          .row
+            .col-md-12
+              a.logo(href='/') My Friend is a Founder
+          .row
+            .col-md-offset-2.col-md-8.explainer.text-center
+              p A series of interviews with <b>founders you can relate to</b>.
+              p
+                | With the <b>focus</b> to decode <b>last steps to a successful business</b>.
+          .row.first-email.text-center
+            .col-sm-offset-3.col-sm-6.col-md-offset-4.col-md-4
+              .form-group
+                input.form-control.input-lg(name='email', type='email', placeholder='Your Best Email')
+              .form-group
+                button.btn.btn-light(type='submit') Get an interview every few weeks
 
       section.pad-large.bottom-skew
         .container
@@ -213,18 +220,13 @@ html
       section.light-part.no-skew
         .container.content.text-center
           .col-sm-12
-            i.icon-heart
-            h4 Learn more from friendly founders
+            h4 Get an interview every few weeks
             .hr
-          .col-sm-offset-4.col-sm-4
+          .col-sm-offset-3.col-sm-6.col-md-offset-4.col-md-4
             .form-group
               input.form-control.input-lg.requiretop(name='email', type='email', placeholder='Your Best Email')
-          .col-sm-offset-3.col-sm-6
             .form-group
               button.btn(type='submit') Learn from friendly founders
-            #copy-text
-              p An interview every few weeks
-          .col-sm-offset-3.col-sm-6
             .follow
               hr
               a(href='https://twitter.com/myfriendisafounder' target='_blank')
@@ -232,4 +234,3 @@ html
                 i.icon-twitter
     script(src='js/jquery.min.js')
     script(src='js/bootstrap.min.js')
-    script(src="//load.sumome.com/" data-sumo-site-id="36086a8e9a7bb32811b73783d122d9cb2d7ba393666342261d0ddddc25c1e48c" async="async")
