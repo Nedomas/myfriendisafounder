@@ -3,6 +3,17 @@ $highlight-white-link: hsla(0, 0%, 100%, .6);
 $highlight-black-link: hsla(198, 80%, 85%, 1);
 $black: #222;
 
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+.zocial-twitter {
+  padding-left: .5em;
+}
+
 .home {
   overflow: hidden;
   background: #222;
