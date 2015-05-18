@@ -1,6 +1,6 @@
 #### - What helped you find you product market fit?
 
-We we're in the fog. Everything became much clearer after <b>writing
+We were in the fog. Everything became much clearer after <b>writing
 down user personas</b>. We could have saved a lot of time
 if we did that before building anything.
 
