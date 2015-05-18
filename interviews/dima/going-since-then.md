@@ -10,5 +10,5 @@ by adding more features to Android app</b>. It was kind of
 stupid to think it would work.
 We ended up by making a responsive web that works on all devices.
 
-We we're getting feedback from our first users but
+We were getting feedback from our first users but
 we guessed a lot of things wrong anyways.
