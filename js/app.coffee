@@ -43,3 +43,4 @@ $ ->
   track('#bottom-submit', 'Click bottom submit')
   track('.follow', 'Click OR FOLLOW THEM')
   track('a', 'Click link')
+  track('.playgong a', 'Click Playgong button')
