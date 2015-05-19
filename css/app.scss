@@ -236,3 +236,21 @@ input, button {
 .follow a {
   text-decoration: none;
 }
+
+.by {
+  padding-top: 3em;
+
+  a {
+    color: #222;
+    text-transform: uppercase;
+    font-family: 'Courier New';
+    letter-spacing: 3px;
+    font-size: 13px;
+    text-decoration: none;
+    opacity: 0.8;
+
+    &:hover {
+      color: $highlight-black-link;
+    }
+  }
+}
